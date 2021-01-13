@@ -136,7 +136,6 @@ PRODUCT_PACKAGES += \
     VZWAPNLib \
     CarrierServices \
     CarrierSettings \
-    CarrierSetup \
     ConnMO \
     DCMO \
     DMService \
