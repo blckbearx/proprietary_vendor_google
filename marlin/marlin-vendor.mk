@@ -136,7 +136,6 @@ PRODUCT_PACKAGES += \
     VZWAPNLib \
     CarrierServices \
     CarrierSettings \
-    CarrierSetup \
     ConnMO \
     DCMO \
     DMService \
@@ -233,8 +232,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/vendor/etc/diag/MarlinSailfish_Radio-generic.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/diag/MarlinSailfish_Radio-generic.cfg \
     vendor/google/marlin/proprietary/vendor/etc/diag/wlan.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/diag/wlan.cfg \
     vendor/google/marlin/proprietary/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
-	vendor/google/marlin/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
-	vendor/google/marlin/proprietary/vendor/etc/diracvdd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/diracvdd.bin \
+    vendor/google/marlin/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
+    vendor/google/marlin/proprietary/vendor/etc/diracvdd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/diracvdd.bin \
     vendor/google/marlin/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/google/marlin/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/google/marlin/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
@@ -387,7 +386,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/vendor/firmware/widevine.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b05 \
     vendor/google/marlin/proprietary/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b06 \
     vendor/google/marlin/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
-	vendor/google/marlin/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
+    vendor/google/marlin/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
     vendor/google/marlin/proprietary/vendor/lib/dsp/EtsiEaacPlusEncAndCmnModule.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/dsp/EtsiEaacPlusEncAndCmnModule.so.1 \
     vendor/google/marlin/proprietary/vendor/lib/dsp/HeaacDecoderModule.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/dsp/HeaacDecoderModule.so.1 \
     vendor/google/marlin/proprietary/vendor/lib/dsp/SAPlusCmnModule.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/dsp/SAPlusCmnModule.so.1 \
@@ -663,7 +662,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/vendor/lib/rfsa/adsp/lowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/lowi_client.so \
     vendor/google/marlin/proprietary/vendor/lib/rfsa/adsp/nano_bridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/nano_bridge.so \
     vendor/google/marlin/proprietary/vendor/lib/soundfx/libfmas.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libfmas.so \
-	vendor/google/marlin/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
+    vendor/google/marlin/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
     vendor/google/marlin/proprietary/vendor/lib/test_suite_all_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/test_suite_all_modules.so \
     vendor/google/marlin/proprietary/vendor/lib/test_suite_no_sensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/test_suite_no_sensor.so \
     vendor/google/marlin/proprietary/vendor/lib/test_suite_pproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/test_suite_pproc.so \
